@@ -1,3 +1,19 @@
 page-home {
+	#login-buttons {
+		display: flex;
+		flex-direction: row;
+		button {
+			margin: 3px;
+			flex: 1;
+		}
+	}
 
+	.item-input {
+		padding-right: 16px;
+		color: $primary-text-color;
+	}
+
+	ion-item {
+		background: transparent !important;
+	}
 }

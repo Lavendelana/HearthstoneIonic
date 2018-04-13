@@ -1,0 +1,34 @@
+page-list {
+	.spinner-container {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background: transparent;
+
+        ion-spinner > svg > circle {
+        	stroke: #FFFFFF;
+        }
+    }
+
+    .item-block {
+    	background: transparent;
+    	.item-inner {
+    		border-bottom: 0px !important;
+
+    		.label {
+    			height: 275px;
+    			position: relative;
+    			overflow: hidden;
+    			margin-right: auto;
+    			margin-left: auto;
+    		}
+    	}
+    }
+
+    .list-image {
+    	position: absolute;
+    	top: -30px;
+    	left: -10px;
+    	clip: rect(40px,230px,300px,10px);
+    }
+}

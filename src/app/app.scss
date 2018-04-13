@@ -14,3 +14,35 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$primary-text-color: #FFFFFF;
+
+
+@font-face {
+	font-family: Belwe-medium;
+	font-style: normal;
+	src: url('../assets/fonts/Belwe-medium.otf');
+}
+
+.background-image {
+	background-image: url("../assets/imgs/background.jpg");
+    background-repeat: repeat-y;
+}
+
+.card-background-image {
+	background-image: url("../assets/imgs/card-background.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-clickable {
+	cursor: pointer;
+}
+
+ion-card-title {
+	color: $primary-text-color !important;
+}
+
+p {
+	color: $primary-text-color !important;
+}
